@@ -1,0 +1,16 @@
+{
+  "navne": {
+    "fornavn": "Kiana",
+    "efternavn": "Dellagatta"
+  },
+
+  "alder": 23,
+  "studerende": true,
+  "interesser": ["Design", "Medier", "Rejser"],
+  "adresse": {
+    "vej": "Rasmus Rasks Vej 7",
+    "by": "Valby",
+    "postnummber": 2500
+  },
+  "fødselsdato": "2001-04-11"
+}
