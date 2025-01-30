@@ -1,16 +1,108 @@
 {
-  "navne": {
-    "fornavn": "Kiana",
-    "efternavn": "Dellagatta"
-  },
+  "elever": {
+    "holdb": [
+      {
+        "id": 1,
+        "elev": {
+          "navne": { "fornavn": "Aylin", "efternavn": "Saber" },
+          "alder": 22,
+          "fødselsdag": "02/09-2002",
+          "studerende": true,
+          "uddannelse": "Multimediedesign",
+          "sprog": ["Dansk", "Engelsk", "Persisk"],
+          "adresse": {
+            "vej": "Borgmester Jensens Allé 2",
+            "by": "København",
+            "postnummer": "2100"
+          }
+        }
+      },
+      {
+        "id": 2,
+        "elev": {
+          "name": {
+            "forename": "Tilde",
+            "surname": "Wolff"
+          },
+          "birthday": {
+            "day": 19,
+            "month": 8,
+            "year": 2000
+          },
+          "job": {
+            "company": "Olympus Corporation",
+            "title": "Customer Care Specialist",
+            "country": "Denmark"
+          },
+          "student": true,
+          "hobbies": ["Video Games", "Dungeons & Dragons", "Digital Art", "Technology"],
+          "address": {
+            "road": "Frimestervej",
+            "number": 28,
+            "floor": 2,
+            "apartment": "th"
+          },
+          "contact": {
+            "email": "tildews@gmail.com",
+            "phone": "+45 31771122"
+          }
+        }
+      },
+      {
+        "id": 3,
+        "elev": {
+          "navne": {
+            "fornavn": "Cathrine",
+            "efternavn": "Singer"
+          },
+          "alder": 23,
+          "studerende": true,
+          "interesser": ["kat", "dans", "rejse", "kage"],
+          "adresse": {
+            "vej": "Gammel Skovvej 4",
+            "by": "Kastrup",
+            "postnummer": "2770"
+          },
+          "fødselsdato": "2001-05-31"
+        }
+      },
+      {
+        "id": 4,
+        "elev": {
+          "navne": {
+            "fornavn": "Kiana",
+            "efternavn": "Dellagatta"
+          },
 
-  "alder": 23,
-  "studerende": true,
-  "interesser": ["Design", "Medier", "Rejser"],
-  "adresse": {
-    "vej": "Rasmus Rasks Vej 7",
-    "by": "Valby",
-    "postnummber": 2500
-  },
-  "fødselsdato": "2001-04-11"
+          "alder": 23,
+          "studerende": true,
+          "interesser": ["Design", "Medier", "Rejser"],
+          "adresse": {
+            "vej": "Rasmus Rasks Vej 7",
+            "by": "Valby",
+            "postnummber": 2500
+          },
+          "fødselsdato": "2001-04-11"
+        }
+      }
+    ],
+    "holdc": [
+      {
+        "id": 5,
+        "elev": {
+          "navne": { "fornavn": "Emily", "efternavn": "Noack" },
+          "alder": 22,
+          "fødselsdag": "10/08-2002",
+          "studerende": true,
+          "uddannelse": "Multimediedesign",
+          "sprog": ["Dansk", "Engelsk"],
+          "adresse": {
+            "vej": "Upsalagade 5",
+            "by": "København",
+            "postnummer": "2100"
+          }
+        }
+      }
+    ]
+  }
 }
